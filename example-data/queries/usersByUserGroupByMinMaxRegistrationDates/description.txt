@@ -1,0 +1,1 @@
+Finds number of users grouped by users group where registration date should be found.
