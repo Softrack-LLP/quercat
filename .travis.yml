@@ -14,5 +14,7 @@ deploy:
   api_key:
     secure: SgWkneSqSV4GzM7E6UlXNIqzkbs7RDso2LS4RMh8uEt4EDjbFjv2H89AeXyKhXWO0+F0pTOFY3y6YZ/63gz7NGPR6J28WAfRBmPj/TArodCXNEmCmyhAS53EWClwzFj2Rt6MFKBpDf6NKuXDYwsZtFToGreOxRGH1bTvbcwn/IDZYXWUwdhGxN3QF27KfR1go+/s5V8oBsQAoKMVUayuVy1pPDJinUfBLUTbKIhc9Vx5BPVgx9DW9eesPy6ZW4Unr0tr4owbprEjWwumSdrdJC+M7nwTIE8Gu3hfOu3dvF/hAFq7OlochzY4w5drRq3ND8NB7PZ/hW5ZsrKN+ESTR6szUQWKHc4+RNcfveXWZGaEV3GuUmZqBczQauZTLW3w1GkNjAVqicvZYWHiIlpLnsvgtBHOaYxo9phVFdxIrlvg9E8mKMsYTSYSyjAAzb+okb/lL9ZY0u/wCMhlSF3GrsJI/M75SL0LeXoW2OJXd3GkSnHLDIuMO6XxSw9yfLEPl7v7XIKVcApGfWF9sJUi87k1wcX+KyhiGEP8XfEwYM6qlhay7D3OBpkciCj0/pCp43Ahuf+tP+EckEMV9s7nKdEjTH6mYIhF9iNVVwccjEymVEwuhaPSm6r2/zkaZLOMEG8Q2+CpjzRgArWZYWJTiSNtIpF68sMJ28wx3f8Pgns=
   file: target/quercat.jar
+  skip_cleanup: true
   on:
+    tags: true
     repo: Softrack-LLP/quercat
